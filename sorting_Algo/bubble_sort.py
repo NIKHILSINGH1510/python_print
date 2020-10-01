@@ -1,8 +1,8 @@
 #this code is for predifed array it will give you an basic idea how
 # Bubble sort Works
-# psedo Algo Below
+# pseudo Algo Below
 
-toBeSorted=[99,77,44,31,64,28,67,45,34,63]
+toBeSorted=[9,77,44,31,64,28,67,45,34,93]
 
 def bubbleSort(toBeSorted):
 n = len(toBeSorted)
@@ -13,4 +13,4 @@ toBeSorted[j], toBeSorted[j+1] = toBeSorted[j+1], toBeSorted[j]
 
 result=bubbleSort(toBeSorted)
 if result != -1:
-print('sorted array is',toBeSorted,'\nsorted by BUBBLE SORT')
+print('The sorted array is',toBeSorted,'\nsorted by BUBBLE SORT')
