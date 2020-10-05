@@ -13,22 +13,22 @@ void creat()
     printf("how many number you want\n");
     scanf("%d",&n);
     for(i=0;i<n;i++)
-    {
-    struct node *newnode=(struct node *)malloc(sizeof(struct node));
-    newnode->next=0;
-    printf("give number\n");
-    scanf("%d",&newnode->data);
-    if(head==0)
-    {
-        head=temp=newnode;
-    }
-    else
-    {
-        temp->next=newnode;
-        temp=temp->next;
-        newnode->next=head;
-    }
-    }
+        {
+                    struct node *newnode=(struct node *)malloc(sizeof(struct node));
+                    newnode->next=0;
+                    printf("give number\n");
+                                scanf("%d",&newnode->data);
+                if(head==0)
+                        {
+                              head=temp=newnode;
+                         }
+                 else
+                         {
+                            temp->next=newnode;
+                            temp=temp->next;
+                             newnode->next=head;
+                        }
+        }
 }
 void display()
 {
